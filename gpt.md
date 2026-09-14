@@ -190,7 +190,7 @@ def ask_chatgpt(query: str):
 
 ---
 
-# 🧱 4️⃣ **FastAPI Chat Endpoint (final chatbot)**
+# 4️⃣ **FastAPI Chat Endpoint (final chatbot)**
 
 ### `chat_router.py`
 
@@ -212,7 +212,7 @@ def chat(req: ChatRequest):
 
 ---
 
-# 🧱 5️⃣ **Main FastAPI Application**
+# 5️⃣ **Main FastAPI Application**
 
 ### `main.py`
 
@@ -229,7 +229,7 @@ app.include_router(chat_router)
 
 ---
 
-# 🚀 **Now your chatbot can do this:**
+# **Now chatbot can do this:**
 
 User:
 
@@ -249,7 +249,7 @@ GET /messages/search?user_email=sarah.kim@company.com&sentiment=negative&directi
 
 ---
 
-# 🎉 **Running a real AI Agent**
+# **Running a real AI Agent**
 
 This architecture is:
 
