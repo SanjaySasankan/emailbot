@@ -1,6 +1,4 @@
-Perfect — here is the **FULL, READY-TO-RUN implementation** of:
-
-# ✅ **ChatGPT × FastAPI Function-Calling Chatbot**
+# **ChatGPT × FastAPI Function-Calling Chatbot**
 
 This code makes ChatGPT automatically:
 
@@ -10,11 +8,11 @@ This code makes ChatGPT automatically:
 4. Receive the filtered results
 5. Produce a final answer to the user
 
-This is **exactly how your production chatbot should work**.
+This is **exactly how production chatbot should work**.
 
 ---
 
-# 📁 **Project Structure**
+# **Project Structure**
 
 ```
 app/
@@ -27,7 +25,7 @@ app/
 
 ---
 
-# 🧱 1️⃣ **FastAPI Message Search Endpoint**
+# **FastAPI Message Search Endpoint**
 
 This is the API ChatGPT will call.
 
@@ -101,7 +99,7 @@ def search_messages(
 
 ---
 
-# 🧱 2️⃣ **ChatGPT Tool Definition (Function Calling)**
+# **ChatGPT Tool Definition (Function Calling)**
 
 ### `tool_definitions.py`
 
@@ -131,7 +129,7 @@ tools = [
 
 ---
 
-# 🧱 3️⃣ **Tool Handler — ChatGPT Calls Your API**
+# **Tool Handler — ChatGPT Calls  API**
 
 ### `gpt_client.py`
 
@@ -251,7 +249,7 @@ GET /messages/search?user_email=sarah.kim@company.com&sentiment=negative&directi
 
 ---
 
-# 🎉 **You're now running a real AI Agent**
+# 🎉 **Running a real AI Agent**
 
 This architecture is:
 
@@ -267,15 +265,6 @@ This architecture is:
 
 ---
 
-# ⭐ Want me to generate next?
-
-### A) Angular chatbot UI
-
-### B) Mermaid diagram of the ChatGPT–FastAPI tool architecture
-
-### C) Multi-agent GPT design (sentiment + analytics + RFQ bot)
-
-### D) Production deployment setup (Docker + HTTPS + VPC)
 
 ### E) Snowflake-integrated version of the chatbot
 
